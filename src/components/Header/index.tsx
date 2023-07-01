@@ -14,6 +14,7 @@ export const Header = () => {
           alt="Logo Shooter Paintball"
           width={95}
           height={95}
+          quality={100}
         />
       </Link>
       <nav className={styles.navbar}>
