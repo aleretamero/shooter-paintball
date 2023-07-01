@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export const Local = () => {
   return (
-    <section className={styles.section}>
+    <section id='local' className={styles.section}>
       <h2 className="title">Onde fica a nossa base?</h2>
       <div className={styles.container}>
         <div className={styles.carousel}></div>

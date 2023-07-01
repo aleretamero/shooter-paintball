@@ -26,7 +26,8 @@
 
 
 .containerForm {
-  padding: 6.75rem 0;
+  padding: 5rem 0;
+  z-index: 1;
 
   h2 {
     font-size: 2.8rem;
@@ -65,5 +66,9 @@
 
   button {
     background-color: transparent;
+
+    &:hover {
+      color: var(--gray-800);
+    }
   }
 }

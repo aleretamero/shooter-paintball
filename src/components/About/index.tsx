@@ -16,7 +16,7 @@ import objects from '../../../public/images/objetivos.svg';
 
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section id='about' className={styles.container}>
       <div className={styles.content}>
         <h2 className="subtitle">SOBRE</h2>
         <strong className="title">

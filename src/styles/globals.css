@@ -26,6 +26,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body,
 input,
 textarea,
@@ -62,7 +66,7 @@ main {
 }
 
 section {
-  padding: 6.75rem max(calc((100% - 90rem) / 2), 2rem);
+  padding: 6rem max(calc((100% - 90rem) / 2), 2rem);
 }
 
 .button {

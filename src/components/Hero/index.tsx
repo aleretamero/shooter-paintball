@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section id='home' className={styles.container}>
       <h1>
         O tiro certo PARA UM JOGO <br /><span>com MAIS adrenalina!</span>
       </h1>

@@ -7,7 +7,7 @@ import check from '../../../public/images/check.svg';
 
 export const Packages = () => {
   return (
-    <section className={styles.container}>
+    <section id="packges" className={styles.container}>
       <h2 className="subtitle">PACOTES</h2>
       <strong className="title">
         PREÇOS E PACOTES <br /> PAINTBALL
@@ -15,13 +15,13 @@ export const Packages = () => {
       <div className={styles.containerCard}>
         <div className={styles.card}>
           <h3>PACOTE OURO</h3>
-          <div>
+          <div className={styles.price}>
             <span>R$</span>
             <span>50</span>
             <span>,00</span>
           </div>
           <span>VALOR POR PESSOA</span>
-          <ul>
+          <ul className={styles.listBenefits}>
             <li>
               <Image src={check} alt="check" width={28} height={29} />
               <span>01:30h de jogo;</span>
@@ -43,13 +43,13 @@ export const Packages = () => {
         </div>
         <div className={styles.card}>
           <h3>PACOTE ELITE</h3>
-          <div>
+          <div className={styles.price}>
             <span>R$</span>
             <span>60</span>
             <span>,00</span>
           </div>
           <span>VALOR POR PESSOA</span>
-          <ul>
+          <ul className={styles.listBenefits}>
             <li>
               <Image src={check} alt="check" width={28} height={29} />
               <span>01:30h de jogo;</span>
@@ -70,9 +70,9 @@ export const Packages = () => {
           <Link href="">Agendar agora</Link>
         </div>
       </div>
-      <div>
+      <div className={styles.containerExtrasOptions}>
         <h3>Opcionais extras</h3>
-        <div>
+        <div className={styles.contentExtrasOptions}>
           <h4>Bolinhas extras</h4>
           <div>
             100 Bolinhas <span>R$ 15,00</span>

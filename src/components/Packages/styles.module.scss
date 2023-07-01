@@ -12,21 +12,128 @@
 
 .containerCard {
   display: flex;
-  gap: 5rem;
+  justify-content: center;
+  gap: 4rem;
 }
 
 .card {
-  width: 41.25rem;
-  height: 45.875rem;
+  width: 27rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  margin-bottom: 5rem;
 
   h3 {
     color: var(--green-500);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  & > span {
+    color: var(--black);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+  }
+
+  a {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height: 3.4rem;
+    background: var(--green-500);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 0.3s;
+
+    &:hover,
+    &:active {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.price {
+  position: relative;
+  color: var(--gray-500);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+
+  & span:nth-child(1) {
+    position: absolute;
+    top: 1rem;
+  }
+
+  & span:nth-child(2) {
+    padding-left: 2rem;
+    font-size: 6rem;
+  }
+}
+
+.listBenefits {
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--black);
+    font-weight: 700;
+  }
+}
+
+.containerExtrasOptions {
+  h3 {
+    color: var(--gray-500);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+.contentExtrasOptions {
+  margin: 2rem auto;
+  width: 39rem;
+  height: 25rem;
+  box-shadow: 0px 0px 15px 0px var(--black);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--green-500);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0.5rem 2rem;
+    margin-bottom: .8rem;
+    margin-top: 1.5rem;
+  }
+
+  div {
+    color: var(--black);
+    text-align: center;
+    font-weight: 900;
+
+    span {
+      color: var(--green-500);
+    }
   }
 }
