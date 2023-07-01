@@ -19,7 +19,7 @@ export const About = () => {
     <section>
       <div>
         <h2>SOBRE</h2>
-        <h3>O QUE VOCÊ PODE ESPERAR DE NÓS?</h3>
+        <strong>O QUE VOCÊ PODE ESPERAR DE NÓS?</strong>
         <p>
           Somos considerados o melhor campo de paintball de Minas Gerais. Nosso
           campo é inspirado no game CS:GO, então já sabe que aqui é outro nível!
