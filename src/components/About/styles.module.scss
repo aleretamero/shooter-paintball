@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+
+   strong {
+    text-align: start;
+    max-width: 35rem;
+  }
+
+  p {
+    max-width: 35rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.75rem;
+    margin-top: 3.2rem;
+  }
+}
+
+.cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  li {
+    width: 14rem;
+    height: 14.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:nth-child(odd) {
+      background: #595959;
+      color: var(--white);
+    }
+
+    &:nth-child(even) {
+      background: #6B9F07;
+      color: var(--black);
+    }
+  }
+
+  
+}

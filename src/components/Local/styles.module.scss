@@ -1,0 +1,75 @@
+.section {
+  background-image: url('/images/camada-banner-2.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 18rem;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.carousel {
+  flex: 1;
+  width: 47rem;
+  aspect-ratio: 1;
+  background-color: #101010;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-left: 5rem;
+
+  strong {
+    text-align: start;
+  }
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.reference {
+  span {
+    font-weight: 700;
+  }
+}
+
+.containerButtons {
+  display: flex;
+  margin-top: 4rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 18.75rem;
+  height: 4.19rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3125rem solid var(--black);
+  color: var(--black);
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translate(0, -0.2rem);
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  }
+}

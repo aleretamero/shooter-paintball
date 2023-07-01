@@ -16,10 +16,12 @@ import objects from '../../../public/images/objetivos.svg';
 
 export const About = () => {
   return (
-    <section>
-      <div>
-        <h2>SOBRE</h2>
-        <strong>O QUE VOCÊ PODE ESPERAR DE NÓS?</strong>
+    <section className={styles.container}>
+      <div className={styles.content}>
+        <h2 className="subtitle">SOBRE</h2>
+        <strong className="title">
+          O QUE VOCÊ PODE <br /> ESPERAR DE NÓS?
+        </strong>
         <p>
           Somos considerados o melhor campo de paintball de Minas Gerais. Nosso
           campo é inspirado no game CS:GO, então já sabe que aqui é outro nível!
@@ -42,7 +44,7 @@ export const About = () => {
           </Link>
         </nav>
       </div>
-      <ul>
+      <ul className={styles.cards}>
         <li>
           <Image
             src={clock}
@@ -50,7 +52,7 @@ export const About = () => {
             width={104}
             height={104}
           />
-          <span>Amplo horário de funcionamento</span>
+          <span>Amplo horário de <br /> funcionamento</span>
         </li>
         <li>
           <Image src={space} alt="Nosso espaço" width={110} height={96} />
@@ -63,7 +65,7 @@ export const About = () => {
             width={98}
             height={96}
           />
-          <span>Segurança em primeiro lugar</span>
+          <span>Segurança em <br /> primeiro lugar</span>
         </li>
         <li>
           <Image
@@ -72,7 +74,7 @@ export const About = () => {
             width={110}
             height={96}
           />
-          <span>Preços mais acessíveis</span>
+          <span>Preços mais <br /> acessíveis</span>
         </li>
         <li>
           <Image
@@ -81,7 +83,7 @@ export const About = () => {
             width={111}
             height={97}
           />
-          <span>Os melhores equipamentos</span>
+          <span>Os melhores <br /> equipamentos</span>
         </li>
         <li>
           <Image
@@ -90,7 +92,7 @@ export const About = () => {
             width={96}
             height={96}
           />
-          <span>Jogos com objetivos</span>
+          <span>Jogos com <br /> objetivos</span>
         </li>
       </ul>
     </section>

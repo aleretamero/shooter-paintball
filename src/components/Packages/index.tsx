@@ -8,8 +8,8 @@ import check from '../../../public/images/check.svg';
 export const Packages = () => {
   return (
     <section>
-      <h2>PACOTES</h2>
-      <strong>PREÇOS E PACOTES PANTIBALL</strong>
+      <h2 className='subtitle'>PACOTES</h2>
+      <strong className='title'>PREÇOS E PACOTES <br /> PANTIBALL</strong>
       <div>
         <div className={styles.card}>
           <h3>PACOTE OURO</h3>
