@@ -9,6 +9,7 @@
   --black: #000;
 
   --green-500: #6b9f07;
+  --gray-800: #2C2C2C;
   --gray-500: #595959;
   --gray-300: #f2f3f9;
 }
@@ -52,6 +53,12 @@ img {
 ul,
 ol {
   list-style: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 section {

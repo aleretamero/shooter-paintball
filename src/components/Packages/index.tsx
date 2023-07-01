@@ -7,10 +7,12 @@ import check from '../../../public/images/check.svg';
 
 export const Packages = () => {
   return (
-    <section>
-      <h2 className='subtitle'>PACOTES</h2>
-      <strong className='title'>PREÇOS E PACOTES <br /> PANTIBALL</strong>
-      <div>
+    <section className={styles.container}>
+      <h2 className="subtitle">PACOTES</h2>
+      <strong className="title">
+        PREÇOS E PACOTES <br /> PAINTBALL
+      </strong>
+      <div className={styles.containerCard}>
         <div className={styles.card}>
           <h3>PACOTE OURO</h3>
           <div>
@@ -72,13 +74,23 @@ export const Packages = () => {
         <h3>Opcionais extras</h3>
         <div>
           <h4>Bolinhas extras</h4>
-          <div>100 Bolinhas <span>R$ 15,00</span></div>
-          <div>100 Bolinhas <span>R$ 25,00</span></div>
+          <div>
+            100 Bolinhas <span>R$ 15,00</span>
+          </div>
+          <div>
+            100 Bolinhas <span>R$ 25,00</span>
+          </div>
           <h4>Equipamento Próprio</h4>
-          <div>Pessoas com equipamento <span>R$ 30,00</span></div>
-          <h4>Recarga de Co2  equip. próprio</h4>
-          <div>9 ou 12 oz <span>R$ 15,00</span></div>
-          <div>20 ou 24 oz <span>R$ 20,00</span></div>
+          <div>
+            Pessoas com equipamento <span>R$ 30,00</span>
+          </div>
+          <h4>Recarga de Co2 equip. próprio</h4>
+          <div>
+            9 ou 12 oz <span>R$ 15,00</span>
+          </div>
+          <div>
+            20 ou 24 oz <span>R$ 20,00</span>
+          </div>
         </div>
       </div>
     </section>

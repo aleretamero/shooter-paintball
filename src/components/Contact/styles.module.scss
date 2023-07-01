@@ -1,11 +1,69 @@
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 2.5rem;
+  column-gap: 2rem;
+  position: relative;
+  background-color: var(--gray-800);
+
   &::after {
     content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url('/images/camada-banner-3.png') repeat-x bottom, url('/images/camada-banner-4.png') repeat-x top;
+    background-size: contain;
+  }
+  
+  &::before {
+    content: '';
+    background-color: black;
+  }
+}
+
+
+.containerForm {
+  padding: 6.75rem 0;
+
+  h2 {
+    font-size: 2.8rem;
+    color: var(--white);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: start;
+  }
+
+  span {
+    display: block;
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
   }
 }
 
 .form {
   display: flex;
   flex-direction: column;
+
+  input,
+  textarea {
+    display: block;
+    width: 40rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+  }
+
+  textarea {
+    height: 5rem;
+    resize: none;
+  }
+
+  button {
+    background-color: transparent;
+  }
 }
