@@ -8,10 +8,10 @@ export const Footer = () => {
       <div>
         Criação de Sites:
         <Link href="https://lucascrp.vercel.app/" target="_blank">
-          https://lucascrp.vercel.app/
+          https://lucascrp.vercel.app
         </Link>
         <Link href="https://alexandreretamero.vercel.app/" target="_blank">
-          https://alexandreretamero.vercel.app/
+          https://alexandreretamero.vercel.app
         </Link>
       </div>
     </footer>
