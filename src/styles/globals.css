@@ -76,11 +76,11 @@ section {
 }
 
 .button {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 900;
-  width: 18.75rem;
-  height: 4.19rem;
+  width: 15rem;
+  height: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
