@@ -4,7 +4,7 @@
   align-items: center;
   gap: 2.7rem;
   flex-direction: column;
-  height: calc(100vh - 3rem);
+  min-height: 100vh;
   background-color: #101010;
   background-image: url('/images/camada-banner.png');
   background-repeat: repeat-x;

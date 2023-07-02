@@ -10,7 +10,6 @@ export const Footer = () => {
         <Link href="https://lucascrp.vercel.app/" target="_blank">
           https://lucascrp.vercel.app/
         </Link>
-        |
         <Link href="https://alexandreretamero.vercel.app/" target="_blank">
           https://alexandreretamero.vercel.app/
         </Link>

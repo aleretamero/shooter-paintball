@@ -3,6 +3,7 @@ import styles from './styles.module.scss';
 export const Contact = () => {
   return (
     <section className={styles.container}>
+      <div className={styles.banner}></div>
       <div className={styles.containerForm}>
         <h2>Fale com a gente</h2>
         <span>Responderemos o seu contato o mais breve possível.</span>

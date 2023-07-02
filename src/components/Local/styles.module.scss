@@ -4,29 +4,33 @@
   background-position: bottom;
   background-size: contain;
   padding-bottom: 18rem;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
 
   h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .carousel {
-  flex: 1;
-  width: 47rem;
-  aspect-ratio: 1;
+  flex: 1 0 30rem;
+  height: 30rem;
   background-color: #101010;
 }
 
 .content {
-  flex: 1;
+  flex: 1 0 auto;
   display: flex;
   flex-direction: column;
   padding-top: 1rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
 
   strong {
     text-align: start;
@@ -49,7 +53,7 @@
 
 .containerButtons {
   display: flex;
-  margin-top: 4rem;
+  margin-top: 2rem;
   gap: 3rem;
   flex-wrap: wrap;
 }
@@ -71,5 +75,20 @@
   &:hover {
     transform: translate(0, -0.2rem);
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (max-width: 90rem) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    padding-left: 0;
+  }
+
+  .containerButtons {
+    gap: 2rem;
+    justify-content: center;
   }
 }

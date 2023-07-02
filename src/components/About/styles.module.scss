@@ -1,11 +1,12 @@
 .container {
   display: flex;
+  gap: 4rem;
 }
 
 .content {
   flex: 1;
 
-   strong {
+  strong {
     text-align: start;
     max-width: 35rem;
   }
@@ -33,7 +34,7 @@
 
   li {
     width: 14rem;
-    height: 14.625rem;
+    aspect-ratio: 1/1.04;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,10 +50,33 @@
     }
 
     &:nth-child(even) {
-      background: #6B9F07;
+      background: #6b9f07;
       color: var(--black);
     }
   }
+}
 
-  
+@media (max-width: 90rem) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 48rem) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    gap: 1rem;
+    li {
+      width: 12rem;
+    }
+  }
+}
+
+@media (max-width: 48rem) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
 }

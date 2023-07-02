@@ -1,8 +1,8 @@
 .footer {
   width: 100%;
-  padding: 6rem max(calc((100% - 90rem) / 2), 2rem);
+  padding: 6rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 
@@ -29,9 +29,17 @@
   }
 }
 
-@media (max-width:83rem) {
+@media (max-width: 83rem) {
   .footer {
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 55rem) {
+  .footer {
+    div {
+      flex-direction: column;
+    }
   }
 }
