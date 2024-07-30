@@ -7,11 +7,8 @@ export const Footer = () => {
       <p>©Alvo Paintball - 2023 - Todos os direitos reservados</p>
       <div>
         Criação de Sites:
-        <Link href="https://lucascrp.vercel.app/" target="_blank">
-          https://lucascrp.vercel.app
-        </Link>
-        <Link href="https://alexandreretamero.vercel.app/" target="_blank">
-          https://alexandreretamero.vercel.app
+        <Link href="https://dev.aleretamero.com.br" target="_blank">
+          https://dev.aleretamero.com.br
         </Link>
       </div>
     </footer>
