@@ -1,16 +1,14 @@
-# Projeto Landing Page Shooter-Paintball
+# Projeto Landing Page Shooter Paintball
 
 ![preview](./public/preview.webp)
 
 ## 💭 Descrição
 
-Essa Landing Page foi desenvolvida como exemplo para venda de um serviço freelancer
+Essa Landing Page foi desenvolvida como exemplo para venda de um serviço freelancer.
 
 ## 🧠 Funcionalidades
 
  ✔️ **Layout Responsivo:** A página é otimizada para ser visualizada em diferentes dispositivos e tamanhos de tela, garantindo uma experiência de usuário consistente.
-
- ✔️ **Design Atraente:** O design foi cuidadosamente implementado para corresponder às especificações do Figma, com atenção aos detalhes visuais, tipografia e espaçamento.
 
 ## 🖥️ Tecnologias Utilizadas
 
